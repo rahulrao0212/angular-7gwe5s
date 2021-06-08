@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { Product } from './products';
 import { HttpClient } from '@angular/common/http';
 import { stringify } from '@angular/compiler/src/util';
+import { Shipping } from './shipping';
 
 @Injectable()
 export class CartService {
